@@ -290,6 +290,75 @@ input {
 
 /* hero_side_div style end here */
 
+/* section_3 style start here */
+
+
+.lawyer_info {
+    display: flex;
+    gap: 50px;
+    /* align-items: center; */
+    padding-top: 105px;
+    padding-bottom: 150px;
+}
+
+.lawyer_about h5 {
+    font-size: 12px;
+    color: #CF9455;
+    padding-top: 74px;
+
+}
+
+.lawyer_about h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: "Crimson Text", serif;
+    padding-bottom: 12px;
+
+
+}
+
+.lawyer_about h6 {
+    font-size: 13px;
+    color: #AAAAAA;
+    font-family: "DM Sans", sans-serif;
+}
+
+.lawyer_about p {
+    font-size: 14px;
+    color: #666666;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 35px;
+    padding-bottom: 42px;
+}
+
+.lawyer_name {
+    display: flex;
+    gap: 49px;
+    align-items: center;
+}
+
+.lawyer_name_right h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6666666666666667em;
+    font-family: "Crimson Text", serif;
+}
+
+.lawyer_name_right h3 {
+    font-size: 14px;
+    color: #CF9455;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+
+.calender {
+    max-width: 300px;
+    height: 300px;
+    padding-top: 40px;
+}
+
+/* section_3 style end here */
 
 /*--------------------------
  Responsiv For Tablet 
