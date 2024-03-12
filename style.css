@@ -150,6 +150,12 @@ input {
     font-size: 18px;
 }
 
+.nav_main-header h1 {
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+
+}
 
 /* nav-section-style-only-smartphone end*/
 
@@ -299,6 +305,7 @@ input {
         transform: scale(0);
         opacity: 0;
     }
+
 
 
 
