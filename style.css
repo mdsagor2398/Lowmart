@@ -173,6 +173,12 @@ input {
     color: #fff;
 }
 
+.all_hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero_text {
     padding-top: 106px;
 }
@@ -232,9 +238,6 @@ input {
 .hero_side_div {
     max-width: 370px;
     background-color: #fff;
-    position: absolute;
-    right: 19%;
-    top: 25%;
     padding: 44px 24px 30px 29px;
     border: solid 1px #D6D6D6;
 }
@@ -294,13 +297,20 @@ input {
 /* section_3 style start here */
 
 
+.lawyer_full_div {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
 .lawyer_info {
     display: flex;
-    gap: 50px;
-    /* align-items: center; */
+    gap: 59px;
     padding-top: 105px;
     padding-bottom: 150px;
 }
+
+.lawyer_about {}
 
 .lawyer_about h5 {
     font-size: 12px;
@@ -326,6 +336,7 @@ input {
 }
 
 .lawyer_about p {
+    max-width: 400px;
     font-size: 14px;
     color: #666666;
     font-family: "DM Sans", sans-serif;
@@ -354,12 +365,15 @@ input {
 }
 
 .calender {
-    min-width: 290px;
-    height: 300px;
-    padding-top: 40px;
+    padding-top: 160px;
+    padding-bottom: 30px;
 }
 
 /* experiences-area start */
+
+.lawyer_img img {
+    position: relative;
+}
 
 .experiences-area {
     position: absolute;
@@ -401,10 +415,6 @@ input {
 
 
 .meeting-time-site {
-    position: absolute;
-    right: 18.50%;
-    bottom: -30%;
-    max-width: 300px;
     padding: 32px 19px;
     background-color: #333A4D;
     color: #fff;
@@ -469,6 +479,26 @@ input {
 
 /* section_3 style end here */
 
+/*----------------------------------
+  This Responsive only for Desktop 
+-------------------------------------*/
+
+@media (min-width:1230px) {
+
+    .section_2-hero {
+        position: relative;
+    }
+
+    .hero_side_div {
+        position: absolute;
+        right: 18.3%;
+        top: 25.5%;
+    }
+}
+
+/*----------------------------------
+  This Responsive only for Desktop 
+-------------------------------------*/
 
 
 
@@ -530,10 +560,14 @@ input {
 
     /* section_2-hero style start here */
 
-
+    .all_hero_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     .hero_text {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .hero_text h1 {
@@ -556,10 +590,9 @@ input {
     /* hero_side_div_style start here */
 
     .hero_side_div {
-        max-width: 370px;
-        right: 5%;
-        top: 16%;
+        margin-top: 45px;
         padding: 30px 15px 20px 19px;
+
 
     }
 
@@ -588,12 +621,15 @@ input {
 
     /* section_3 style start here */
 
+    .lawyer_full_div {
+        flex-direction: column;
+
+    }
 
     .lawyer_info {
         display: flex;
         gap: 50px;
-        padding-top: 105px;
-        padding-bottom: 150px;
+        padding-bottom: 50px;
     }
 
     .lawyer_about h5 {
@@ -627,16 +663,15 @@ input {
     }
 
     .calender {
-        position: absolute;
-        bottom: -60%;
+        padding: unset;
+    }
+
+    .lawyer_date-time {
+        display: flex;
+        justify-content: space-around;
     }
 
     /* experiences-area start */
-
-    .experiences-area {
-        left: 60%;
-        bottom: -27%;
-    }
 
     .years_left_area h1 {
         font-size: 45px;
@@ -654,15 +689,6 @@ input {
     /* experiences-area end */
 
     /* meeting time site style start here */
-
-
-    .meeting-time-site {
-        right: 7.50%;
-        bottom: -60%;
-        min-height: 262px;
-    }
-
-
 
     .meeting_with_smith h3 {
         padding-bottom: 10px;
@@ -780,8 +806,8 @@ input {
 
     /* section_2-hero style start here */
 
-    .section_2-hero {
-        min-height: 855px;
+    .all_hero_content {
+        flex-direction: column;
     }
 
     .hero_text {
@@ -797,9 +823,6 @@ input {
 
 
     .hero_side_div {
-        position: absolute;
-        right: 10%;
-        top: 55%;
         padding: 44px 24px 30px 29px;
     }
 
@@ -809,6 +832,7 @@ input {
 
     .lawyer_img img {
         max-width: 300px;
+        position: relative;
     }
 
     .lawyer_about {
@@ -818,6 +842,7 @@ input {
     .lawyer_info {
         display: flex;
         flex-direction: column;
+        padding-top: 40px;
     }
 
     .lawyer_name {
@@ -833,21 +858,13 @@ input {
         font-size: 12px;
     }
 
-    .calender {
-        position: absolute;
-        top: 1900px;
-        padding-left: 15px;
-        min-width: 310px;
-
-
-    }
 
     /* experiences-area start */
 
     .experiences-area {
-        max-width: 200px;
+        max-width: 170px;
         left: 50%;
-        bottom: -79.2%;
+        bottom: -66.4%;
         padding: 20px 6px;
     }
 
@@ -869,14 +886,9 @@ input {
     /* meeting time site style start here */
 
 
-    .meeting-time-site {
-        position: relative;
-        right: 0%;
-        bottom: -170px;
-        min-height: 0px;
-        margin-left: 15px;
+    .lawyer_date-time {
+        flex-direction: column;
     }
-
 
 
     .meeting_with_smith h3 {
@@ -911,3 +923,47 @@ input {
 /*--------------------------------
  Responsiv For Smartphone end
 ---------------------------------*/
+
+/* Few Smartphone Breckpoint start */
+
+@media screen and (min-width: 400px) {
+    .experiences-area {
+        bottom: -98.5%;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .experiences-area {
+        bottom: -55.1%;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .experiences-area {
+        bottom: -112.6%;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .experiences-area {
+        bottom: -66.3%;
+    }
+}
+
+/* Few Smartphone Breckpoint end */
+
+/* Few tablet Breckpoint start */
+
+@media (max-width:820px) {
+    .experiences-area {
+        bottom: -10.3%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .experiences-area {
+        bottom: -27%;
+    }
+}
+
+/* Few tablet Breckpoint end */
