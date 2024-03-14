@@ -24,7 +24,8 @@
 
 .nav_content {
     display: flex;
-    gap: 120px;
+    /* gap: 120px; */
+    justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -353,12 +354,123 @@ input {
 }
 
 .calender {
-    max-width: 300px;
+    min-width: 290px;
     height: 300px;
     padding-top: 40px;
 }
 
+/* experiences-area start */
+
+.experiences-area {
+    position: absolute;
+    left: 27%;
+    bottom: -40%;
+    max-width: 240px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 34px 30px;
+    border: solid 1px #CF9455;
+    background-color: #282E3F;
+}
+
+.years_left_area h1 {
+    font-size: 55px;
+    font-family: "DM Sans", sans-serif;
+    color: #CF9455;
+
+}
+
+.years_left_area p {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.years_right_area p {
+    font-size: 16px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* experiences-area end */
+
+/* meeting time site style start here */
+
+
+.meeting-time-site {
+    position: absolute;
+    right: 18.50%;
+    bottom: -30%;
+    max-width: 300px;
+    padding: 32px 19px;
+    background-color: #333A4D;
+    color: #fff;
+}
+
+.meeting_with_smith {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.meeting_with_smith h3 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+.meeting_time {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+.smith_flex-2 p {
+    font-size: 13px;
+    color: #CCCCCC;
+}
+
+.meeting_date {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.confirm-btn {
+    padding: 9px 16px;
+    background-color: #CF9455;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+
+.reschedul-btn {
+    padding: 9px 16px;
+    background-color: #fff;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500
+}
+
+
+
+/* meeting time site style end here */
+
+
+
+
 /* section_3 style end here */
+
+
+
 
 /*--------------------------
  Responsiv For Tablet 
@@ -377,7 +489,7 @@ input {
     }
 
     .nav_content {
-        gap: 20px;
+        gap: 40px;
     }
 
     .nav_all_ancor {
@@ -392,11 +504,15 @@ input {
 
     .nav_btn {
         gap: 10px;
-        padding: 10px 15px;
+        /* padding: 10px; */
+        padding-left: 30px;
+        margin-left: 20px;
+
     }
 
     .nav_btn p {
         font-size: 10px;
+        ;
     }
 
 
@@ -405,9 +521,8 @@ input {
         padding-top: 0px;
     }
 
-    .nav_icon i {
-        padding-left: 10px;
-        font-size: 15px;
+    .nav_icon {
+        display: none;
     }
 
     /* section_1-navigation_bar end*/
@@ -469,6 +584,100 @@ input {
 
 
     /* hero_side_div_style end here */
+
+
+    /* section_3 style start here */
+
+
+    .lawyer_info {
+        display: flex;
+        gap: 50px;
+        padding-top: 105px;
+        padding-bottom: 150px;
+    }
+
+    .lawyer_about h5 {
+        font-size: 13px;
+        padding-top: 0px;
+
+    }
+
+    .lawyer_about h1 {
+        font-size: 40px;
+    }
+
+    .lawyer_about p {
+        font-size: 14px;
+        padding-top: 35px;
+        padding-bottom: 42px;
+    }
+
+    .lawyer_name {
+        display: flex;
+        gap: 49px;
+        align-items: center;
+    }
+
+    .lawyer_name_right h2 {
+        font-size: 18px;
+    }
+
+    .lawyer_name_right h3 {
+        font-size: 12px;
+    }
+
+    .calender {
+        position: absolute;
+        bottom: -60%;
+    }
+
+    /* experiences-area start */
+
+    .experiences-area {
+        left: 60%;
+        bottom: -27%;
+    }
+
+    .years_left_area h1 {
+        font-size: 45px;
+
+    }
+
+    .years_left_area p {
+        font-size: 12px;
+    }
+
+    .years_right_area p {
+        font-size: 14px;
+    }
+
+    /* experiences-area end */
+
+    /* meeting time site style start here */
+
+
+    .meeting-time-site {
+        right: 7.50%;
+        bottom: -60%;
+        min-height: 262px;
+    }
+
+
+
+    .meeting_with_smith h3 {
+        padding-bottom: 10px;
+    }
+
+    .meeting_btn {
+        padding-top: 30px;
+    }
+
+
+    /* meeting time site style end here */
+
+    /* section_3 style end here */
+
+
 }
 
 
@@ -571,26 +780,123 @@ input {
 
     /* section_2-hero style start here */
 
+    .section_2-hero {
+        min-height: 855px;
+    }
+
     .hero_text {
         text-align: center;
         padding-top: 60px;
     }
 
     .hero_btn button {
+        text-align: center;
         padding: 15px 29px;
         font-size: 10px;
     }
 
 
     .hero_side_div {
-        right: 12%;
-        top: 70%;
+        position: absolute;
+        right: 10%;
+        top: 55%;
         padding: 44px 24px 30px 29px;
+    }
+
+    /* section_2-hero style end here */
+
+    /* section_style start here */
+
+    .lawyer_img img {
+        max-width: 300px;
+    }
+
+    .lawyer_about {
+        text-align: center;
+    }
+
+    .lawyer_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lawyer_name {
+        gap: 39px;
+        justify-content: center;
+    }
+
+    .lawyer_name_right h2 {
+        font-size: 18px;
+    }
+
+    .lawyer_name_right h3 {
+        font-size: 12px;
+    }
+
+    .calender {
+        position: absolute;
+        top: 1900px;
+        padding-left: 15px;
+        min-width: 310px;
+
+
+    }
+
+    /* experiences-area start */
+
+    .experiences-area {
+        max-width: 200px;
+        left: 50%;
+        bottom: -79.2%;
+        padding: 20px 6px;
+    }
+
+    .years_left_area h1 {
+        font-size: 35px;
+
+    }
+
+    .years_left_area p {
+        font-size: 10px;
+    }
+
+    .years_right_area p {
+        font-size: 12px;
+    }
+
+    /* experiences-area end */
+
+    /* meeting time site style start here */
+
+
+    .meeting-time-site {
+        position: relative;
+        right: 0%;
+        bottom: -170px;
+        min-height: 0px;
+        margin-left: 15px;
     }
 
 
 
-    /* section_2-hero style end here */
+    .meeting_with_smith h3 {
+        padding-bottom: 0px;
+    }
+
+    .meeting_btn {
+        padding-top: 0px;
+    }
+
+    .confirm-btn,
+    .reschedul-btn {
+        font-size: 14px;
+    }
+
+
+    /* meeting time site style end here */
+
+
+    /* section_style end here */
 
 
 }
