@@ -371,14 +371,14 @@ input {
 
 /* experiences-area start */
 
-.lawyer_img img {
+.lawyer_img {
     position: relative;
 }
 
 .experiences-area {
     position: absolute;
     left: 27%;
-    bottom: -40%;
+    bottom: -30%;
     max-width: 240px;
     display: flex;
     align-items: center;
@@ -671,6 +671,12 @@ input {
         justify-content: space-around;
     }
 
+    .experiences-area{
+        position: absolute;
+        bottom: -30px;
+        left: 260px;
+    }
+
     /* experiences-area start */
 
     .years_left_area h1 {
@@ -830,7 +836,7 @@ input {
 
     /* section_style start here */
 
-    .lawyer_img img {
+    .lawyer_img {
         max-width: 300px;
         position: relative;
     }
@@ -858,13 +864,19 @@ input {
         font-size: 12px;
     }
 
-
     /* experiences-area start */
+
+    .lawyer_img{
+        position: relative;
+    }
+    .lawyer_img img{
+        max-width: 300px;
+    }
 
     .experiences-area {
         max-width: 170px;
-        left: 50%;
-        bottom: -66.4%;
+        left: 190px;
+
         padding: 20px 6px;
     }
 
@@ -926,44 +938,6 @@ input {
 
 /* Few Smartphone Breckpoint start */
 
-@media screen and (min-width: 400px) {
-    .experiences-area {
-        bottom: -98.5%;
-    }
-}
 
-@media screen and (min-width: 414px) {
-    .experiences-area {
-        bottom: -55.1%;
-    }
-}
-
-@media screen and (min-width: 375px) {
-    .experiences-area {
-        bottom: -112.6%;
-    }
-}
-
-@media screen and (min-width: 390px) {
-    .experiences-area {
-        bottom: -66.3%;
-    }
-}
 
 /* Few Smartphone Breckpoint end */
-
-/* Few tablet Breckpoint start */
-
-@media (max-width:820px) {
-    .experiences-area {
-        bottom: -10.3%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .experiences-area {
-        bottom: -27%;
-    }
-}
-
-/* Few tablet Breckpoint end */
