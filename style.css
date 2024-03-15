@@ -377,8 +377,8 @@ input {
 
 .experiences-area {
     position: absolute;
-    left: 64%;
-    bottom: -7%;
+    left: 240px;
+    bottom: -40px;
     max-width: 240px;
     display: flex;
     align-items: center;
