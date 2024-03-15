@@ -475,6 +475,151 @@ input {
 /* meeting time site style end here */
 
 
+/* section-4 style start here */
+
+.section-4 {
+    background-color: #282E3F;
+}
+
+.rateing_contant {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.rate_1 {
+    text-align: center;
+    color: #fff;
+}
+
+.rate_1 h1 {
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+/* section-4 style end here */
+
+
+/* section-5 style start here */
+
+.law_soluions_main_div {
+    padding-top: 96px;
+    padding-bottom: 100px;
+}
+
+.law_soluions_main_div h4 {
+    text-align: center;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #CF9455;
+}
+
+.law_soluions_main_div h1 {
+    max-width: 560px;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Crimson Text", serif;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+
+.soluions_option_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 40px;
+
+}
+
+.many_option {
+    text-align: center;
+}
+
+.many_option:hover {
+    padding: 43px 38px 43px 49px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.many_option h3 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Crimson Text", serif;
+    padding-top: 14px;
+    padding-bottom: 6px;
+
+}
+
+/* soluions_hero_img style start here */
+
+.soluions_hero_div {
+    display: flex;
+    gap: 100px;
+}
+
+.soluions_hero_div h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1em;
+    font-family: "Crimson Text", serif;
+    padding-top: 51px;
+    padding-bottom: 28px;
+}
+
+.soluions_hero_div p {
+    font-size: 14px;
+    line-height: 1.3125em;
+    color: #666666;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 27px;
+}
+
+.soluions_hero_div ul li {
+    font-size: 16px;
+    padding-bottom: 9px;
+}
+
+.soluions_hero_div ul {
+    padding-bottom: 39px;
+    padding-left: 15px;
+}
+
+.soluions_hero-btn a {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 24px;
+    background-color: #CF9455;
+    color: #fff;
+}
+
+
+.soluions_hero_img {
+    position: relative;
+    padding-top: 60px;
+}
+
+.icon_img {
+    position: absolute;
+    bottom: 185px;
+    left: -51px;
+}
+
+
+
+
+/* soluions_hero_img style end here */
+
+/* section-5 style end here */
+
+
+
+
 
 
 /* section_3 style end here */
@@ -710,6 +855,38 @@ input {
     /* section_3 style end here */
 
 
+    /* Section 5 main div style start here */
+
+    .soluions_option_div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+
+    }
+
+    .soluions_hero_div {
+        align-items: center;
+    }
+
+    .soluions_hero_img {
+        padding: 0;
+    }
+
+    .soluions_hero_img img {
+        max-width: 300px;
+    }
+
+    .icon_img {
+        bottom: 98px;
+        left: -25px;
+    }
+
+    .icon_img img {
+        max-width: 50.4px;
+    }
+
+    /* Section 5 main div style end here */
+
 }
 
 
@@ -920,7 +1097,108 @@ input {
     /* meeting time site style end here */
 
 
-    /* section_style end here */
+    .section-4 {
+        background-color: #282E3F;
+        margin-top: 20px;
+    }
+
+    .rateing_contant {
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .rate_1 {
+        text-align: center;
+        color: #fff;
+    }
+
+    .rate_1 img {
+        max-width: 30px;
+    }
+
+    .rate_1 h1 {
+        font-size: 10px;
+        padding-top: 4px;
+        padding-bottom: 3px;
+    }
+
+    .rate_1 p {
+        font-size: 10px;
+
+    }
+
+
+    /* section-5 style start here */
+
+    .law_soluions_main_div {
+        padding-top: 46px;
+    }
+
+
+    .law_soluions_main_div h1 {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+
+    .soluions_option_div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+
+    }
+
+    .many_option img {
+        max-width: 30px;
+    }
+
+    .many_option h3 {
+        font-size: 15px;
+    }
+
+    .many_option p {
+        font-size: 10px;
+    }
+
+    .many_option:hover {
+        padding: 33px 27px 37px 39px;
+    }
+
+    .law_soluions_main_di {
+        padding-bottom: 20px;
+    }
+
+    .soluions_hero_div {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 0;
+    }
+
+    .soluions_hero_div h2 {
+        padding-top: 30px;
+    }
+
+    .soluions_hero_img {
+        padding-top: 40px;
+    }
+
+    .soluions_hero_img img {
+        max-width: 300px;
+    }
+
+    .icon_img {
+        bottom: 98px;
+        left: -25px;
+    }
+
+    .icon_img img {
+        max-width: 50.4px;
+    }
+
+
+
+    /* section-5 style end here */
 
 
 }
