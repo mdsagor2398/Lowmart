@@ -377,8 +377,8 @@ input {
 
 .experiences-area {
     position: absolute;
-    left: 240px;
-    bottom: -40px;
+    left: 64%;
+    bottom: -7%;
     max-width: 240px;
     display: flex;
     align-items: center;
@@ -671,7 +671,7 @@ input {
         justify-content: space-around;
     }
 
-    .experiences-area{
+    .experiences-area {
         position: absolute;
         bottom: -30px;
         left: 260px;
@@ -866,17 +866,17 @@ input {
 
     /* experiences-area start */
 
-    .lawyer_img{
+    .lawyer_img {
         position: relative;
     }
-    .lawyer_img img{
+
+    .lawyer_img img {
         max-width: 300px;
     }
 
     .experiences-area {
         max-width: 170px;
         left: 190px;
-
         padding: 20px 6px;
     }
 
