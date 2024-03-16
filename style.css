@@ -618,7 +618,207 @@ input {
 /* section-5 style end here */
 
 
+/* section_6_slider style start here */
 
+.testmonials_slider_main {
+    display: flex;
+    gap: 30px;
+    padding-top: 96px;
+    padding-bottom: 100px;
+}
+
+.slider_text h3 {
+    font-size: 16px;
+    color: #CF9455;
+    font-family: "DM Sans", sans-serif;
+}
+
+.slider_text h1 {
+    font-size: 60px;
+    font-family: "Crimson Text", serif;
+    padding-top: 5px;
+    padding-bottom: 23px;
+}
+
+.slider_text p {
+    font-size: 16px;
+    color: #666666;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 41px;
+}
+
+.slider_btn a {
+    padding: 14px 29px;
+    background-color: #CF9455;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+
+.imges_and-about {
+    display: flex;
+    gap: 30px;
+}
+
+.about img {
+    padding-top: 20px;
+}
+
+.about h3 {
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    padding-top: 23px;
+    padding-bottom: 28px;
+}
+
+.about p {
+    font-size: 13px;
+    color: #888888;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+
+
+
+/* section_6_slider style end here */
+
+
+
+/* section_7_style start here */
+
+.recent-projects_main_div {}
+
+.recent-projects_main_div p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    color: #CF9455;
+    letter-spacing: 2px;
+
+}
+
+.recent-projects_main_div h1 {
+    text-align: center;
+    max-width: 593px;
+    margin: auto;
+    font-size: 55px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+/* Div Grid */
+
+.crime_div {
+    padding-bottom: 100px;
+}
+
+.family {
+    background-image: url(imges/section_7_img_1.png);
+    background-repeat: no-repeat;
+    max-width: 370px;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.Drug {
+    background-image: url(imges/section_7_img_2.png);
+    background-repeat: no-repeat;
+    max-width: 370px;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.Divorce {
+    background-image: url(imges/section_7_img_3.png);
+    background-repeat: no-repeat;
+    max-width: 370px;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.Criminal {
+    background-image: url(imges/section_7_img_4.png);
+    background-repeat: no-repeat;
+    max-width: 370px;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.Cyber {
+    background-image: url(imges/section_7_img_5.png);
+    background-repeat: no-repeat;
+    max-width: 370px;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.Financial {
+    background-image: url(imges/section_7_img_6.png);
+    background-repeat: no-repeat;
+    max-width: 370px;
+    min-height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.crime_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.family_content h5 {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #CF9455;
+}
+
+.family_content h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Crimson Text", serif;
+    color: #fff;
+    padding-top: 7px;
+}
+
+.icon {
+    padding: 15px 17px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.icon:hover {
+    background-color: #CF9455;
+}
+
+
+
+
+
+/* section_7_style end here */
 
 
 
@@ -886,6 +1086,18 @@ input {
     }
 
     /* Section 5 main div style end here */
+
+
+
+
+    /* section 7 responsive start  */
+
+    .crime_div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 23px;
+    }
+
+    /* section 7 responsive start  */
 
 }
 
@@ -1198,7 +1410,40 @@ input {
 
 
 
+    .law_soluions_main_div {
+        padding-bottom: 60px;
+    }
+
+
+
     /* section-5 style end here */
+
+
+    /* section-6 style end here */
+
+    .section_6_slider {
+        display: none;
+    }
+
+    /* section-6 style end here */
+
+    /* section 7 responsive start  */
+
+    .crime_div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .recent-projects_main_div h1 {
+        font-size: 30px;
+        padding-top: 13px;
+    }
+
+    .crime_div {
+        padding-bottom: 40px;
+    }
+
+    /* section 7 responsive start  */
 
 
 }
