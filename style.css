@@ -139,9 +139,7 @@ nav a:hover {
 }
 
 
-input {
-    display: none;
-}
+
 
 .ui-btn p {
     padding: 12px 24px;
@@ -821,6 +819,89 @@ input {
 /* section_7_style end here */
 
 
+/* section 8 footer start here */
+
+
+.footer {
+    background-color: #282E3F;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer_1 {
+    max-width: 372px;
+}
+
+.footer_logo {
+    display: flex;
+    gap: 6px;
+}
+
+.footer_1 p {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    color: #CCCCCC;
+    padding-top: 21px;
+    padding-bottom: 25px;
+}
+
+.footer_main_div {
+    display: flex;
+    gap: 20px;
+}
+
+.footer_2 {
+    display: flex;
+    gap: 95px;
+}
+
+.footer_icon i {
+    margin-right: 20px;
+    padding: 14px 16px;
+    border: solid 1px #fff;
+    border-radius: 50px;
+}
+
+.footer_icon i:hover {
+    background-color: #CF9455;
+}
+
+.footer_1 h4 {
+    font-size: 20px;
+    font-family: "Crimson Text", serif;
+    color: #CF9455;
+    padding-top: 19px;
+    padding-bottom: 12px;
+}
+
+.footer_1 h5 {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    color: #CCCCCC;
+}
+
+.Practice_Contact_area {
+    display: flex;
+    gap: 39px;
+}
+
+.contact_flex-1 {
+    display: flex;
+}
+
+
+.footer_2 {
+    padding-top: 9px;
+}
+
+.Practice_area h1 {
+    max-width: 190px;
+    font-size: 30px;
+    font-family: "Crimson Text", serif;
+    padding-bottom: 24px;
+}
+
 
 /* section_3 style end here */
 
@@ -1118,6 +1199,11 @@ input {
 
     .nav-section {
         display: block;
+    }
+
+
+    input {
+        display: none;
     }
 
     .nav_content {
